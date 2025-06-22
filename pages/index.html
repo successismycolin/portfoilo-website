@@ -8,31 +8,33 @@
     <link rel="stylesheet" href="../styles/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=League+Gothic&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/177465f790.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
 
 
-    <table style="width: 80%; margin-left: auto; margin-right: auto;">
-        <tr style="text-align: center; font-size: 1.5em;">
-            <td id="col1">
-                <a href="">Home</a>
+    <table id="headerTable" style="width: 80%; margin-left: auto; margin-right: auto;">
+        <tr id="headerRow" style="text-align: center; font-size: 1.5em;">
+            <td id="col1" >
+                <a href="index.html" class="linkLabels">Home</a>
             </td>
             <td id="col2">
-                <a href="#biography">Bio</a>
+                <a href="#biography" class="linkLabels">Bio</a>
             </td>
             <td id="col3">
-                <a href="#educationSection">Education</a>
+                <a href="#educationSection" class="linkLabels">Education</a>
             </td>
             <td id="col4">
-                <a href="#skillsSection">Skills</a>
+                <a href="#skillsSection" class="linkLabels">Skills</a>
             </td>
             <td id="col5">
-                <a href="#linksSection">Links</a>
+                <a href="#linksSection" class="linkLabels">Links</a>
             </td>
             <td id="col6">
-                <a href="#contactsSection">Contact Me</a>
+                <a href="#contactsSection" class="linkLabels">Contact Me</a>
             </td>
         </tr>
     </table>
@@ -114,14 +116,44 @@
     <!-- Links -->
     <div id="linksSection" style="padding: 5%;">
         <p id="linksLabel" class="pLabels" style="font-size: 2em; text-align: center;">Links</p>        
-        <a href="https://www.linkedin.com/in/siphumelele-buthelezi-48881b326" style="font-size: 2em;">LinkedIn</a><br><br>
-        <a href="https://www.github.com/successismycolin" style="font-size: 2em;">GitHub</a><br><br>
-        <a href="https://www.leetcode.com/u/successismycolin/" style="font-size: 2em;">LeetCode</a>
+        <a href="https://www.linkedin.com/in/siphumelele-buthelezi-48881b326" style="font-size: 2em;" class="linkLabels" target=_blank>LinkedIn</a><br><br>
+        <a href="https://www.github.com/successismycolin" style="font-size: 2em;" class="linkLabels" target=_blank>GitHub</a><br><br>
+        <a href="https://www.leetcode.com/u/successismycolin/" style="font-size: 2em;" class="linkLabels" target=_blank>LeetCode</a>
     </div>
 
     <!-- Contact Me -->
     <div id="contactsSection" style="padding: 5%">
-        <p id="contactsLabel" class="pLabels" style="font-size: 2em; text-align: center;">Contact Me</p> 
+        <p id="contactsLabel" class="pLabels" style="font-size: 2em; text-align: center;">Contact Me</p>
+
+        <a href="https://www.linkedin.com/in/siphumelele-buthelezi-48881b326" class="linkLabels" target=_blank>
+            <i class="fa-brands fa-linkedin">
+                <span id="linkedinIconText" class="iconFonts" style="font-weight: 1000;">Siphumelele Buthelezi</span>
+            </i>
+        </a>
+        
+        <br><br>
+
+        <a href="https://www.facebook.com/profile.php?id=100076651490664" class="linkLabels" target=_blank>
+            <i class="fa-brands fa-facebook">
+                <span id="facebookIconText" class="iconFonts" style="font-weight: 1000;">Siphumelele Buthelezi</span>
+            </i>
+        </a>
+
+        <br><br>
+
+        <a href="index.html" class="linkLabels" target=_blank>
+            <i class="fa-solid fa-globe"> 
+                <span  id="websiteIconText" class="iconFonts">siphumelelebuthelezi.co.za</span>
+            </i>
+        </a>
+
+        <br><br>
+
+        <i class="fa-solid fa-envelope"> <span id="emailIconText" class="iconFonts">spumelelebuthelezi@gmail.com</span></i>
+        
+        <br><br>
+
+        <i class="fa-solid fa-phone"> <span id="phoneIconText" class="iconFonts">+27 814811525</span></i>
     </div>
 </body>
 </html>

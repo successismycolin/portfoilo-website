@@ -3,3 +3,18 @@ body{
     font-family:'Inconsolata', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(166, 171, 176);
 }
+.linkLabels:visited{
+    color: rgb(166, 171, 176);
+
+}
+.linkLabels:hover{
+    color: cornsilk;
+}
+#headerTable{
+    background-color: rgb(40, 39, 39);
+    position: sticky;
+    top: 0px;
+}
+.iconFonts{
+    font-family:'Inconsolata', Tahoma, Geneva, Verdana, sans-serif;
+}
