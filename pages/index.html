@@ -4,27 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siphumelele Buthelezi</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=League+Gothic&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-    <table style="background-color: aquamarine; width: 80%; margin-left: auto; margin-right: auto;">
+
+
+    <table style="width: 80%; margin-left: auto; margin-right: auto;">
         <tr style="text-align: center; font-size: 1.5em;">
-            <td id="col1">SCB</td>
-            <span>
-                <td id="col2">Home</td>
-                <td id="col3">Bio</td>
-                <td id="col4">Education</td>
-                <td id="col5">Skills</td>
-                <td id="col6">Links</td>
-                <td id="col7">Contact Me</td>
-            </span>
+            <td id="col1">
+                <a href="">Home</a>
+            </td>
+            <td id="col2">
+                <a href="#biography">Bio</a>
+            </td>
+            <td id="col3">
+                <a href="#educationSection">Education</a>
+            </td>
+            <td id="col4">
+                <a href="#skillsSection">Skills</a>
+            </td>
+            <td id="col5">
+                <a href="#linksSection">Links</a>
+            </td>
+            <td id="col6">
+                <a href="#contactsSection">Contact Me</a>
+            </td>
         </tr>
     </table>
+
+
+    <!-- Heading -->
     <div id="heading" style="padding-top: 20px;">
         <h1 id="nameHeading" style="text-align: center; font-size: 3em;">Siphumelele Buthelezi</h1>
     </div>
+
+    <!-- My biography -->
     <div id="biography" style="padding: 5%;">
-        <p id="bioLabel" style="font-size: 2em; text-align: center;">Bio</p>
+        <p id="bioLabel" class="pLabels" style="font-size: 2em; text-align: center;">Bio</p>
         <p id="bioParagraph" style="font-size: 2em;">Hello and welcome to my World! I am Siphumelele Collin Buthelezi, a passionate and committed prospective software developer with an unwaivering passion for learning and the world of technology. I currently am a student, enrolled at WeThinkCode_, an industry-leading software engineering academy. </p>
+    </div>
+
+    <!-- Education history -->
+    <div id="educationSection" style="padding: 5%">
+        <p id="eduLabel" class="pLabels" style="font-size: 2em; text-align: center;">Education</p>
+        <p id="educationParagraph" style="font-size: 150%">
+
+            <div id="secondaryEdu">
+                <table id="secondarySchoolTable">
+                    <tr id="schoolName">
+                        <td>School name: Masithwalisane Secondary School</td>
+                    </tr>
+                    <tr id="averageMark">
+                        <td>Grade: 62%</td>
+                    </tr>
+                    <tr id="schoolLeavingYear">
+                        <td>School-leaving year: 2018</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+            </div>
+
+            <div id="tertiaryEdu">
+                <table id="universityTable" >
+                    <tr id="uniName">
+                        <td>School name: University of Johannesburg</td>
+                    </tr>
+                    <tr id="uniAverageMark">
+                        <td>Grade: Incomplete</td>
+                    </tr>
+                    <tr id="uniLeavingYear">
+                        <td>School-leaving year: 2021</td>
+                    </tr>
+                </table>
+
+                <br>
+                <br>
+
+                <table id="collegeTable">
+                    <tr id="collegeName">
+                        <td>School name: WeThinkCode_</td>
+                    </tr>
+                    <tr id="collegeAverageMark">
+                        <td>Grade: N/A</td>
+                    </tr>
+                    <tr id="collegeLeavingYear">
+                        <td>School-leaving Year: Currently Enrolled</td>
+                    </tr>
+                </table>
+            </div>
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div id="skillsSection" style="padding: 5%;">
+        <p id="skillsLabel" class="pLabels" style="font-size: 2em; text-align: center;">Skills</p>
+        <p id="skill1" style="font-size: 1.5em;">Python</p>
+        <p id="skill2" style="font-size: 1.5em;">Java</p>
+        <p id="skill3" style="font-size: 1.5em;">JavaScript</p>
+        <p id="skill4" style="font-size: 1.5em;">HTML</p>
+        <p id="skill5" style="font-size: 1.5em;">CSS</p>
+    </div>
+
+    <!-- Links -->
+    <div id="linksSection" style="padding: 5%;">
+        <p id="linksLabel" class="pLabels" style="font-size: 2em; text-align: center;">Links</p>        
+        <a href="https://www.linkedin.com/in/siphumelele-buthelezi-48881b326" style="font-size: 2em;">LinkedIn</a><br><br>
+        <a href="https://www.github.com/successismycolin" style="font-size: 2em;">GitHub</a><br><br>
+        <a href="https://www.leetcode.com/u/successismycolin/" style="font-size: 2em;">LeetCode</a>
+    </div>
+
+    <!-- Contact Me -->
+    <div id="contactsSection" style="padding: 5%">
+        <p id="contactsLabel" class="pLabels" style="font-size: 2em; text-align: center;">Contact Me</p> 
     </div>
 </body>
 </html>
