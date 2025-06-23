@@ -3,6 +3,10 @@ body{
     font-family:'Inconsolata', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(166, 171, 176);
 }
+.pLabels{
+    font-weight: 700;
+    
+}
 .linkLabels:visited{
     color: rgb(166, 171, 176);
 
